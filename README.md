@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./FOUNDRY_REFERENCE.png" alt="Foundry" width="900">
+</p>
+
 # Foundry
 
 Foundry is a real-time Three.js simulation substrate built around a deformable physical world and the systems that act upon it.
