@@ -33,7 +33,7 @@ Some of those mechanisms are mature experiments; others remain exposed machinery
 
 The executable at `index.html` is the ground truth for what Foundry can presently do.
 
-This README is a provisional introduction, not a complete semantic specification. Foundry has not yet received the full semantic reconciliation applied to some later World Lab descendants. Where prose and executable behavior differ, trust the executable.
+This README is an introduction, not a complete semantic specification. See `SEMANTIC_SURFACE.md` for Foundry's current semantic interpretation, authority boundaries, and working toolkit. Where prose and executable behavior differ about present capability, trust the executable.
 
 ## Lineage
 
