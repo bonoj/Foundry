@@ -70,9 +70,13 @@ An implementation being capable of producing an effect does not establish that t
 
 Likewise, source presence does not make a mechanism canonical, UI presence does not make it foundational, and implementation similarity does not prove shared ontology.
 
-## 2. Earned world vocabulary
+## 2. What Foundry currently knows
 
-This section records concepts that current executable evidence supports strongly enough for other Foundry experiments to rely upon. It describes semantic capability, not required implementation.
+Current executable evidence supports two different kinds of reusable knowledge. Keep them distinct.
+
+### World authorities
+
+World authorities are ownership boundaries and cross-cutting physical truths that other experiments must respect. They should be promoted conservatively and remain independent of particular specimens.
 
 ### Bounded physical world
 
@@ -113,6 +117,10 @@ The existence of shared deformation does not require all causes to produce the s
 Foundry can host persistent physical entities that own specialized state and behavior while remaining subject to shared world systems.
 
 Motion does not become a universal component merely because several entities move. Shared architecture should emerge only where a shared requirement becomes materially useful.
+
+### Earned capabilities
+
+Earned capabilities are things Foundry has demonstrated it can meaningfully express. They are reusable possibilities, not necessarily constitutional world primitives.
 
 ### Spatial ports and provisional relationships
 
@@ -158,15 +166,21 @@ World-changing events may leave persistent consequences while temporary effects 
 
 A crater is world state. Its impact cloud is presentation.
 
-## 3. Experimental status
+## 3. Semantic authority and experimental status
 
 Not everything implemented in Foundry has equal semantic authority. Use these distinctions when extending or interpreting the artifact.
 
-### World vocabulary
+### World authority
 
-A capability or relationship supported strongly enough by executable evidence that other experiments may safely rely on its meaning.
+A durable ownership boundary or cross-cutting physical truth that other experiments must respect.
 
-Promotion into world vocabulary should be conservative.
+Promotion into world authority should be rare and evidence-driven.
+
+### Earned capability
+
+A capability or relationship supported strongly enough by executable evidence that other experiments may safely rely on Foundry being able to express it.
+
+An earned capability need not become a world authority.
 
 ### Active specimen
 
@@ -188,85 +202,15 @@ Retained evidence from earlier experiments. Archaeology can explain why current 
 
 Dormant does not mean deleted. Deleted from active vocabulary does not mean the experiment taught nothing.
 
-### Presentation
+### Presentation is an orthogonal axis
 
-Perceptual machinery whose purpose is to make state, scale, causality, or transition legible.
+Perceptual machinery may make state, scale, causality, or transition legible at any experimental status.
 
-Presentation can be extremely important without representing simulated substance or granting gameplay authority.
+Presentation can be mature and important without representing simulated substance or granting gameplay authority. Experimental status and representational status are independent.
 
 These statuses are semantic roles, not necessarily runtime tags.
 
-## 4. Current specimens and what they demonstrate
-
-This is intentionally selective. It records why notable current mechanisms matter rather than attempting to enumerate every implemented object.
-
-### Extruder
-
-Demonstrates a machine causing bounded terrain removal and producing ordinary discrete matter from that event.
-
-The resulting pile is physical world state rather than an abstract production counter.
-
-### Link Node and ports
-
-Demonstrate machine-independent spatial interfaces and provisional relationships among entities.
-
-Earlier representational flow was useful evidence before physical transport existed; visual causality and physical logistics should not be conflated retrospectively.
-
-### Item Pipe
-
-Demonstrates transport of the same discrete physical matter through a terrain-aware conduit. Endpoint loss releases claimed contents back into world physics.
-
-It does not establish sorting, branching, recipes, inventories, or a generalized transport network.
-
-### Drone Factory
-
-Demonstrates autonomous physical material handling with local terrain-aware flight and limited vertical authority.
-
-Its drones steer; they do not possess global pathfinding.
-
-### Turret and creature eggs
-
-Demonstrate bounded machine perception, directional semantics, ballistic use of ordinary matter, finite creature hit state, and physical/destructive consequence.
-
-Crawler, Jumper, and Floater are useful behavioral/morphological specimens. Their existence does not imply a generalized creature taxonomy.
-
-### Thumper
-
-Demonstrates persistent mechanical actuation producing physical consequence in ordinary granular matter.
-
-### Mechanical probes
-
-Linear actuator, flipper, jaws, tumbler, leg, tendon, IK Walker, Walking Snake, and related specimens interrogate articulated physical vocabulary.
-
-Their coexistence does not establish a generalized actuator, rigging, locomotion, or robotics framework. Shared machinery should be promoted only when repeated physical evidence demands it.
-
-### Water
-
-Water currently provides bounded geographic and perceptual context.
-
-It does not presently claim buoyancy, currents, waves, shoreline simulation, underwater state, or machine interaction. Its successful visual role should not be described as hydrodynamics.
-
-### Wonder Field
-
-The Wonder Field is a visual ontology probe: discrete monumental structures testing silhouettes, materials, transparency, visible interiors, framing, and impossible architecture at miniature scale.
-
-The structures have no gameplay authority and do not constitute a building taxonomy, city generator, construction grammar, or settled material language.
-
-### City-machine morphology field
-
-The six city-machines test whether miniature-sized atomic entities can imply civilization-scale systems through morphology, density, visible matter, and dominant civic or industrial verbs.
-
-Launcher, Drone, Unzip, Thumper, Reservoir, and Link cities are propositions rather than replacements for canonical machine payloads.
-
-The important earned possibility is that **semantic scale may change drastically without geometric scale changing**. A small entity may imply a city; existing creatures may consequently read at kaiju scale without changing their simulation.
-
-### Biome provenance
-
-Terrain can retain world-space provenance and ordinary matter produced from terrain can inherit that identity while preserving ordinary bearing physics.
-
-This is a semantic distinction in world material, not yet a resource, crafting, or economy taxonomy.
-
-## 5. How Foundry learns
+## 4. How Foundry learns
 
 Foundry should remain cheap to surprise.
 
@@ -292,11 +236,36 @@ When an experiment exposes a genuinely cross-cutting invariant, promote the smal
 
 **Promotion follows evidence.**
 
-## 6. Current frontier
+## 5. Current toolkit
+
+This is a sparse working inventory of useful mechanisms presently available in the executable. It exists to prevent rediscovery and expose combinatorial possibilities.
+
+**Toolkit membership conveys availability, not semantic authority.** These mechanisms are examples of what Foundry can currently do, not requirements on future implementations and not automatically members of world authority or earned capability.
+
+**Read downward to understand what is available. Read upward to understand what it is allowed to mean.**
+
+Keep this section terse. Add something when knowing it exists materially changes what a successor might attempt. Remove or revise it when executable capability changes.
+
+- **Terrain tools** — raise, carve, and smooth deformable terrain.
+- **Meteor** — orbital strike with transient arrival/impact presentation, apparatus obstruction, and persistent terrain consequence.
+- **Extruder** — removes a bounded terrain bite and emits ordinary physical bearings from that event.
+- **Thumper** — repeatedly imparts mechanical impulse to nearby granular matter.
+- **Link Node** — discovers and binds compatible nearby spatial ports; makes relationships perceptible.
+- **Pipe Ends** — pair into a terrain-aware conduit that transports the same claimed bearings between endpoints.
+- **Drone Factory** — produces autonomous drones that claim, retrieve, and physically deposit nearby bearings using local terrain-aware flight.
+- **Turret** — bounded creature acquisition and tracking; fires ordinary bearing matter ballistically under world gravity.
+- **Crawler / Jumper / Floater** — mobile creature specimens with distinct morphology, behavior, and durability.
+- **Mechanical probes** — articulated experimental specimens including IK Walker and Walking Snake; probe status, not generalized locomotion vocabulary.
+- **Water** — bounded visual/geographic water volume; no hydrodynamic authority.
+- **Wonder Field** — 25 monumental visual-ontology specimens; presentation and shape exploration without gameplay authority.
+- **Six Cities field** — six miniature city-machine morphology specimens testing semantic scale and civic/industrial verbs.
+- **Biome provenance** — terrain/material identity can survive terrain-to-ordinary-matter transformation.
+
+## 6. Open pressures
 
 This section is intentionally volatile. Rewrite it as experiments change.
 
-Foundry currently has especially fertile unresolved territory around:
+Current experiments have left unresolved pressure around several boundaries. These are evidence of open questions, not priorities for subsequent work:
 
 - articulated locomotion and terrain negotiation;
 - relationships among machines, creatures, matter, and infrastructure;
@@ -328,7 +297,9 @@ Current Foundry should not be interpreted as claiming that:
 - semantic scale implies a single canonical physical scale;
 - transient effects are simulated substances merely because they are visually convincing;
 - an implemented or dormant mechanism is canonical merely because it remains in source;
-- every executable capability belongs on the quiet public interaction surface.
+- every executable capability belongs on the quiet public interaction surface;
+- absence from the quiet UI means a capability is dormant, deprecated, or unimportant;
+- visibility in the quiet UI grants greater semantic authority.
 
 These non-claims are not prohibitions. They identify territory that remains open.
 
@@ -339,6 +310,8 @@ Foundry contains extensive chronological semantic notes embedded directly in the
 Those notes are laboratory evidence, not a timeless specification. Earlier statements may intentionally contradict later ones because the artifact changed its mind after executable evidence.
 
 Do not silently reconcile those contradictions.
+
+**Contradiction in archaeology can be evidence of learning, not documentation debt.**
 
 When interpreting Foundry:
 
@@ -361,7 +334,7 @@ If it discovers something local, keep the discovery local.
 
 If it fails, remove the machinery without erasing the lesson.
 
-If unrelated experiments repeatedly require the same new physical or semantic capability, consider promoting the smallest shared concept into Foundry's world vocabulary.
+If unrelated experiments repeatedly require the same new physical or semantic capability, consider promoting the smallest shared concept into Foundry's earned capabilities or, where a genuine cross-cutting authority has emerged, its world authorities.
 
 If evidence eventually contradicts this document, revise the document.
 
